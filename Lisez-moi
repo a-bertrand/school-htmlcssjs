@@ -1,0 +1,16 @@
+Bonjour,
+
+Si jamais pour une raison obscure l'aide ne s'affiche pas sur le site ( lors du "clic" sur la barre de recherche.)
+La voici ici :  
+	Aide Générale : 
+        -Choisir un mot disponible dans la liste'
+        -Opérateur disponible : '>','<','<=','>=','='
+        -Pour des expressions composées: '&','&NOT'
+        -Exemples : 'Color=Black', 'Strings>5', 'Color=Wood&Strings>5', 'Color=Wood&NOTStrings=5'
+Majuscule importante.
+
+Je suis parti un peu vite et j'ai des filtres en plus, car au début je pensais que vous vouliez des filtres qui s'entre-complètent... Puis j'ai lu votre TP donc j'ai essayé de rattraper mais j'ai laissé les filtres basiques. (C'est pour expliquer que je fais des longues boucles qui auraient pu être + synthéthiques et le pourquoi j'utilise 3 tableaux.)
+
+Joyeuse navigation ! 
+Cordialement,
+Anthony Bertrand. (Licence PRO MI-AW)

@@ -1,0 +1,135 @@
+ /*------------*/
+/* index_SECTION 1 _ Introduction  */
+#Index_Section1
+{
+    background-color : rgba(255,255,255,0.6);
+    margin-top: 100px;
+    padding: 1%;
+}
+#Index_Section1 .container{color : rgba(0,0,0,0.8);}
+.title
+{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sub_title div
+{
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    color:red;
+}
+.introduction p:first-child
+{
+    font-size: 20px;
+    font-weight: bold;
+} 
+.introduction p
+{
+    font-size: 15px;
+    font-style:italic;
+}
+/*------------*/
+/* index_SECTION 2 _ content */
+#Index_Section2 img
+{
+    width: 100%;
+    height : auto;
+    max-width: 400px ;
+    border-radius: 50%;
+    z-index: 0;
+    position: relative;
+}
+#Index_Section2 img:hover
+{
+    width: 200%;
+    height : auto;
+    border-radius: 0%;
+    margin-left: -200px;
+    z-index: 1;
+}
+#Index_Section2
+{
+    background-color : rgba(0,0,0,0.8);
+    margin-top: 25px;
+    height: 1000px;
+}
+#Index_Section2 .container{color : rgba(255,255,255,0.8);}  
+#guitar_content ul{list-style-type: none;}
+.column>ul>li:not(:first-child){height: 150px;}
+
+.line
+{
+    width: 100%;
+    margin-left : -15px;
+    margin-right: -15px;
+}
+.col-3
+{
+    width: 25%;
+    float: left;
+}
+.moreinfo
+{
+    font-size: 15px;
+    font-style: italic;
+}
+/*/ ------ ------ ------ */
+/* Search CSS and Seciton2 add */
+#search_box ul
+{
+    list-style-type: none;
+}
+#search-helper li
+{
+    margin-left: -30px;
+    width: 110%;
+}
+#search-helper 
+{
+    display : none;
+    width: 300px;
+    float: left;
+    left: 0;
+    background-color: rgba(250,250,250,0.9);
+    position: absolute;
+    left: 670px;
+    height: 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    color :  black;
+}
+#right-col-search
+{
+    float:left;
+    width: 60%;
+}
+#left-col-search
+{
+    float:left;
+    width: 40%;
+}
+#search_box input
+{
+    width: 150px;
+}
+#search_box
+{
+    color: white;
+    padding: 12px;
+    width: 100%;
+}
+.moreinfo, .moreinfotitle
+{
+    display: none;
+    height: auto;
+}
+.moreinfotitle
+{
+    height: auto;
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}

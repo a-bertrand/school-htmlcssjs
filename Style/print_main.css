@@ -1,0 +1,20 @@
+@media print 
+{
+	body 
+	{ /* Modifications : la couleur de fond de page - la police - l'unité utilisée pour la taille de la police  */
+	  background-color :#fff;
+	  font-family :Serif;
+	  font-size :15pt;
+	}
+	#page 
+	{ /* Modifications : suppression de la bordure - marges */
+	  margin :0;
+	  border :none;
+	}
+	footer{display: none;}
+	.navigation{display:none;}
+	.container{width: 100%}
+	.column>ul>li:not(:first-child){height: 100px;}
+	.column { font-size: 12px; color:black;
+	}
+}

@@ -1,0 +1,41 @@
+/* ------------NAVIGATION -------------- */
+
+@media screen and (max-width: 1000px)
+{
+	.table_title
+	{
+		display:none;
+	}
+	.column
+	{
+		width : 100%;
+		float:none;
+	}
+    .topnav li.right,
+    .topnav li 
+    {
+        float: none;
+    }
+    #Index_Section2 img:hover
+	{
+	    width: 120%;
+	    height : auto;
+	   border-radius: 0%;
+	    margin-left: -10%;
+	    z-index: 20 ;
+	}
+	#Index_Section2 img
+	{
+	    width: 100%;
+	    height : auto;
+	   border-radius: 0%;
+	    margin-left: 0px;
+	    z-index: 1;
+	}
+	.line div:nth-child(n+2)
+	{
+		display : none;
+	}
+}
+
+/* ------------NAVIGATION -------------- */

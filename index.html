@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link href="style/main.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="style/index_page.css" />
+        <link rel="stylesheet" type="text/css" href="style/MOBILE_index_page.css" />
+        <link rel="stylesheet" type="text/css" href="style/print_main.css" media="print" />
+        <!-- Init global class -->
+        <script type="text/javascript" src="Js/guitare_class.js"></script>
+        <!-- Init global Data -->
+        <script type="text/javascript" src="Js/data.js"></script>
+        <title>Mayones guitars & basses</title>
+    </head>
+    <body>
+        <nav class="navigation">    
+            <ul>
+                <span><img src="IMG/mayonlogo.jpg"></span>
+                <li class="active">
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+                <li >
+                    <div class="dropdown">
+                        <a class="dropbtn">Informations Suplémentaires</a>  <!-- press to show dropdowncontent -->
+                        <div class="dropdown-content"> <!-- hide  -->
+                            <a onclick="viewmore(1)">
+                                Duvell 7
+                            </a>
+                            <a onclick="viewmore(2)">
+                                Regius 7
+                            </a>
+                        </div> <!-- ENDOF dropdown_content-->
+                    </div>  
+                </li>
+                <li id="search">        
+                    <div id="search_box">
+                        Selection du modèle : <select id="select_1" onchange="change_select(this.value)"></select>
+                        Recherche par mot clé : 
+                        <span id="search-box">
+                            <input onblur="hidesearch()" id="input-search" type="search" placeholder="Clickez pour des mots-clés" onfocus="inputsearch()"> 
+                            <div id="search-helper">
+                                <div id="left-col-search">
+                                    Mots-clés : 
+                                    <ul id="listtofill">
+                                    </ul>
+                                </div>
+                                <div id="right-col-search">
+                                    Aide Général : 
+                                    <p>-Choisir un mot disponible dans la liste.</p>
+                                    <p>-Opérateur disponible : '>','<','<=','>=','='</p>
+                                    <p>-Pour des expressions composées: '&','&NOT' </p>
+                                    <p> Exemples : 'Color=Black', 'Strings>5', 'Color=Wood&Strings>5', 'Color=Wood&NOTStrings=5'</p>
+                                </div>
+                            </div>
+                        </span><button onclick="searchbutton()"> Rechercher </button>
+                        Cordes : <select id="select_2" onchange="change_select(this.value)"></select>
+                        Couleur :<select id="select_3" onchange="change_select(this.value)"></select>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    	<article class="index">
+            <section id="Index_Section1">
+                <div class="container">
+                    <div class="title">
+                        Mayones Guitars & Basses - handmade in Poland since 1982 
+                    </div>
+                    <a class="sub_title"  href="www.mayones.com"> 
+                        OFFICIAL MAYONES WEBSITE
+                    </a>
+                    <div class="introduction">
+                        <p>
+                            Mayones Guitars & Basses - handmade in Poland since 1982. Mayones is best known for its custom models
+                        </p>
+                        <p>
+                            Tired of playing the same old gear you can get in every store? How about having a truly one-of-a-kind instrument made especially for you? Choose from a selection of high class pickups, a wide array of wood for the top and the fretboard, inlays and position markers of your own design, custom colours, locking tuners, D-Tuners, Q-Parts knobs... It's all available in Mayones to create the one-and-only guitar - Your Guitar!
+                        </p>
+                    </div>
+                </div>
+            </section>
+    		<section  id="Index_Section2">
+                <div  class="container">
+                    <div id="guitar_content" class="line">
+                        
+                    </div>
+                </div>
+    		</section>
+    	</article>
+        <footer>
+            <p>
+                All Mayones instruments are 100% handcrafted.
+                The actual colour, finish, shading or texture may be different from the samples shown on the website and in the catalogue.
+                Prices and delivery times may vary depending on version, chosen finish and hardware.
+                All features, specifications, and availability subject to change without notice.
+                Mayones and the Mayones logo are registered trademarks of Gitary Mayones Partnership. 
+                All other trademarks are the property of their respective owners.
+            </p>
+        <!-- All function to display  -->        
+        <script type="text/javascript" src="Js/main.js"></script>
+        <!-- add function to search -->
+        <script type="text/javascript" src="Js/search.js"></script>
+        <!-- view more -->
+        <script type="text/javascript" src="Js/viewmore.js"></script>
+        </footer>
+    </body>
+</html>
